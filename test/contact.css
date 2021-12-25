@@ -1,0 +1,305 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.lefti{
+    width: 190px;
+    display: flex;
+    justify-content: space-around;
+}
+.lefti h1{
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 3px;
+}
+.lefti span{
+    font-size: 16px;
+    margin-top: 6px;
+}
+.lefti .yviteli{
+    width: 25px;
+    height: 25px;
+    background-color: #eea302;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 3px;
+}
+.pirveli{
+    display: inline-block;
+    width: 1px;
+    height: 24px;
+    background-color: black;
+    margin-top: 8px;
+}
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar-nav{
+    gap: 10px;
+    margin-left: 35px;
+}
+.navbar-toggler{
+    margin-left: 0px;
+}
+main .section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main .section .left{
+    margin-top: 70px;
+}
+main .section .left .pirvelii{
+    width: 300px;
+}
+main .section .left .pirvelii h1{
+    font-size: 42px;
+    margin: 0px;
+    padding: 0px;
+}
+main .section .left .pirveli span{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+main .section .left .meore h1{
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+main .section .left .mesame h1{
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+main .section .left .divi{
+    margin-left: 330px;
+    width: 300px;
+    display: inline-block;
+}
+main .section .left .divi .pirvelii h1{
+    padding-bottom: 8px;
+}
+main .section .left .divi .meore{
+    margin-top: 25px;
+}
+main .section .left .divi .meore h1{
+    padding-bottom: 7px;
+}
+main .section .left .divi .mesame{
+    margin-top: 25px;
+    
+}
+main .section .left .divi .mesame h1{
+    padding-bottom: 7px;
+}
+main .section .right .pirvelia{
+    display: inline-block;
+    width: 250px;
+}
+main .section .right{
+    margin-top: 100px;
+}
+main .section .right .pirvelia input{
+    width: 215px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 20px
+}
+main .section .right .meorea{
+    display: inline-block;
+    width: 250px;
+}
+main .section .right .meorea input{
+    width: 215px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 20px
+}
+main .section .right .mesamea{
+    display: inline-block;
+    width: 250px;
+}
+main .section .right .mesamea input{
+    width: 215px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 20px
+}
+main .section .right .meotxea{
+    display: inline-block;
+    width: 250px;
+}
+main .section .right .meotxea input{
+    width: 215px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 20px
+}
+main .section .right .mexutea{
+    display: inline-block;
+    width: 250px;
+}
+main .section .right .mexutea input{
+    width: 300px;
+    height: 141px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+main .section .right .rightia{
+    display: inline-block;
+    width: 505px;
+}
+main .section .right .rightia .clik{
+    width: 140px;
+    height: 140px;
+    background-color: #eea302;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 80px;
+}
+main .section .right .rightia .clik span{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+main .section .right .rightia .div .clik:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+main .section .right .rightia .pirvelia input{
+    margin-top: 10px;
+    background-color: #f8f9fa;
+}
+main .section .right .rightia .pirvelia input:hover{
+    border: 2px solid black;
+}
+main .section .right .rightia .meorea input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+
+}
+main .section .right .rightia .meorea input:hover{
+    border: 2px solid black;
+}
+main .section .right .rightia .mesamea input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+
+}  
+
+
+main .section .right .rightia .mesamea input:hover{
+    border: 2px solid black;
+}
+main .section .right .rightia .meotxea input{
+    margin-top: 10px;
+    background-color: #f8f9fa;
+
+}
+main .section .right .rightia .meotxea input:hover{
+    border: 2px solid black;
+}
+
+main .section .right .rightia .mexutea input{
+    margin-top: 10px;
+    background-color: #f8f9fa;
+}
+main .section .right .rightia .mexutea input:hover{
+    border: 2px solid black;
+}
+.rightia{
+    margin-left: 170px;
+}
+.line{
+    width: 96%;
+    height: 1px;
+    background-color: rgb(199,199,199);
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+
+}
+footer section{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer section .first h5{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+footer section .first span{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50px;
+}
+footer section .second h5{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+footer section .second span{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 150px;
+}
+footer section .third h5{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+footer section .third div{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-left: 150px;
+}
+footer section .third div a{
+    text-decoration: none;
+    color: black;
+}
+footer section .third div a{
+    margin-right: 15px;
+    font-size: 20px;
+}
+footer section .fourth div span{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 150px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    display: flex; 
+}
+footer section .fourth div .second{
+    margin-top: 0px;
+}

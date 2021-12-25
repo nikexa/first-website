@@ -1,0 +1,218 @@
+@media screen and (max-width: 991px) and (min-width: 0px) {
+    .first{
+        width: 320px;
+    }
+    .second{
+        width: 320px;
+    }
+    .third{
+        width: 320px;
+    }
+    footer section .fourth div{
+        width: 320px;
+    }
+    footer section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    footer section .first h5{
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    footer section .second h5{
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    footer section .third h5{
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    footer section .third div{
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-left: 50px;
+    }
+    footer section .third div a{
+        text-decoration: none;
+        color: black;
+    }
+    footer section .third div a{
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    footer section .fourth div{
+        display: inline-block;
+    }
+    footer section .fourth div span{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+        display: flex; 
+    }
+    footer section .second span{
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 992px) {
+    footer section .first h5{
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    footer section .first span{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 50px;
+    }
+    footer section .second h5{
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    footer section .second span{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 100px;
+    }
+    footer section .third h5{
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    footer section .third div{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-left: 100px;
+    }
+    footer section .third div a{
+        text-decoration: none;
+        color: black;
+    }
+    footer section .third div a{
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    footer section .fourth div{
+        width: 350px;
+    }
+    footer section .fourth div span{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 100px;
+        margin-top: 55px;
+        margin-bottom: 0px;
+        display: flex; 
+    }
+}
+@media screen and (max-width: 2700px) and (min-width: 2000px) {
+    .divi{
+        margin-left: 500px !important;
+    }
+}
+@media screen and (max-width: 1500px) and (min-width: 1120px) {
+    .rightia{
+        margin-left: 50px;
+    }
+    main .section .left .divi{
+        margin-left: 180px !important;
+    }
+}
+@media screen and (max-width: 1120px) and (min-width: 0px) {
+    .rightia{
+        margin-left: 0px;
+    }
+    main .section .left .divi{
+        margin-left: 80px !important;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 0px) {
+    main section{
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr;
+    }
+    main .section .right .rightia{
+        width: 200px;
+    }
+    main .section .left .divi{
+        margin-left: 50px !important; 
+    }
+    main .section .right .rightia{
+        margin-left: 50px;
+    }
+    main .section .right{
+        margin-top: -150px;
+    }
+    main .section .right .rightia .pirvelia input{
+        margin-top: 0px;
+    }
+    main .section .right .rightia .pirvelia input{
+        margin-bottom: 15px;
+    }
+    main .section .right .rightia .meorea input{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    main .section .right .rightia .mesamea input{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    main .section .right .rightia .meotxea input{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    main .section .right .rightia .mexutea input{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    main .section .right .rightia .clik{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 355px) and (min-width: 0px) {
+    main .section .right .rightia{
+        margin-left: 20px;
+    }
+    main .section .left .divi{
+        margin-left: 20px !important;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 0px) {
+    .pirveli{
+        display: none;
+    }
+}
